@@ -1,0 +1,24 @@
+.card-body {
+    padding: 20px;
+    background-color: var(--light--shadow);
+    border-radius: 8px;
+    border-bottom: 8px solid var(--light--gray);
+    border-top: 2px solid var(--light--gray);
+    border-left: 2px solid var(--light--gray);
+    border-right: 2px solid var(--light--gray);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-body:hover {
+    border-color: var(--dark--gray);
+    transition: all 0.3s ease-in-out;
+    z-index: 9;
+    transform: scale(1.05);
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 15px 15px rgba(0, 0, 0, 0.06),
+    0 30px 30px rgba(0, 0, 0, 0.086),
+    0 35px 35px rgba(0, 0, 0, 0.05);
+}

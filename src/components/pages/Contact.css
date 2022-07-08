@@ -1,0 +1,67 @@
+.contact--section {
+    /* background-image: linear-gradient(to top right, hsl(var(--hue), 50%, 4%), hsl(var(--hue), 35%, 18%)); */
+    background-color: var(--light);
+}
+
+.contact--body {
+    width: 60%;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--light--shadow);
+    border-radius: 8px;
+    border: 2px solid var(--light--gray);
+}
+
+input:focus, textarea:focus {
+    border: 2px solid var(--dark--shadow);
+}
+
+.contact--input--name, .contact--input--email, .contact--input--message {
+    padding: 12px;
+}
+
+.contact--input--name {
+    width: 40%;
+}
+
+.contact--input--email {
+    width: 60%;
+}
+
+.contact--input--message {
+    width: 100%;
+}
+
+@media (max-width: 1150px) {
+    .contact--body {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact--body {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .contact--body {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact--body {
+        width: 100%;
+    }
+    .contact--input--name, .contact--input--email, .contact--input--message {
+        width: 100%;
+        padding: 12px 0px;
+    }
+}

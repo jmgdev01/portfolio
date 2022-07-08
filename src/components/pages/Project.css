@@ -1,0 +1,4 @@
+.project--section {
+    /* background-image: linear-gradient(to top right, hsl(var(--hue), 50%, 4%), hsl(var(--hue), 35%, 18%)); */
+    background-color: var(--primary);
+}

@@ -1,0 +1,29 @@
+.badge {
+    width: 200px;
+}
+
+.badge div {
+    border: 2px solid var(--dark--gray);
+    color: var(--dark--gray);
+    background-color: var(--light);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.badge:hover div {
+    background-color: var(--dark--gray);
+    color: var(--light);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 500px) {
+    .badge {
+        width: 150px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .badge {
+        width: 220px;
+    }
+  }
