@@ -48,7 +48,7 @@ function Project() {
 
     useEffect(() => {
         if (Object.keys(formErrors).length === 0 && isSubmit) {
-            emailjs.sendForm('service_lhu16ga', 'template_oue7gnn', form.current, '6TrodRGCNu0bOq0HB');
+            emailjs.sendForm('service_np5xaxo', 'template_x8bko9u', form.current, 'Yv5D7lC7HdmpOELtu');
             formValues.name = "";
             formValues.email = "";
             formValues.message = "";
