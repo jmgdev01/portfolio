@@ -35,7 +35,8 @@ function About() {
                                     buttonSize='btn--medium'
                                     buttonColor='btn--light'
                                     buttonHover='btn--hover--primary'
-                                    text='DOWNLOAD CV'
+                                    text1='DOWNLOAD CV'
+                                    text2='DOWNLOAD CV'
                                     type='submit'
                                     path='./'
                                     icon={<HiOutlineInboxIn size={25} />}

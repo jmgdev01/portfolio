@@ -86,7 +86,8 @@ function Project() {
                                         buttonSize='btn--medium'
                                         buttonColor='btn--primary'
                                         buttonHover='btn--hover--light'
-                                        text='CONFIRM'
+                                        text1='CONFIRM'
+                                        text2='CONFIRM'
                                         type='submit'
                                         icon={<FaCheck size={25} />}
                                         onClick={closeAlert}
@@ -132,7 +133,8 @@ function Project() {
                                     buttonSize='btn--large'
                                     buttonColor='btn--light'
                                     buttonHover='btn--hover--primary'
-                                    text='SEND MESSAGE'
+                                    text1='SEND MESSAGE'
+                                    text2='SEND MESSAGE'
                                     type='submit'
                                     icon={<BiMailSend size={25} />}
                                     onClick={openAlert}

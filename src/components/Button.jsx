@@ -7,7 +7,8 @@ const COLOR = ['btn--light', 'btn--primary', 'btn--dark'];
 const HOVER = ['btn--hover--light', 'btn--hover--primary', 'btn--hover--dark'];
 
 export const Button = ({
-  text,
+  text1,
+  text2,
   icon,
   type,
   onClick,
@@ -38,7 +39,7 @@ export const Button = ({
         onClick={onClick}
         type={type}
       >
-        <span className='mr-2'>{text}</span>{icon}
+        <span className='mr-2 btn--mx'>{text1}</span><span className='mr-2 btn--mn'>{text2}</span>{icon}
       </button>
   )
 };

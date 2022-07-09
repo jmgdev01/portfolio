@@ -62,3 +62,20 @@
     padding: 12px 26px;
     font-size: 20px;
 }
+
+.btn--mx {
+    display: block;
+}
+
+.btn--mn {
+    display: none;
+}
+
+@media (max-width: 748px) {
+    .btn--mx {
+        display: none;
+    }
+    .btn--mn {
+        display: block;
+    }
+  }

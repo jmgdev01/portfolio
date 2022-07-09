@@ -12,7 +12,7 @@ function Hero() {
       <div id='hero-section' className='hero--section h-screen w-full mt-[-64px] px-10'>
         <div className='max-w-[1240px] h-full mx-auto text-center flex flex-col justify-center'>
           <p className='md:text-5xl sm:text-4xl text-3xl font-bold p-2 mt-[32px] text--light'>Hello, I'm</p>
-          <h1 className='md:text-[85px] sm:text-6xl text-5xl font-bold md:py-6 py-3 text--primary'>JOHN MICHAEL GADOT</h1>
+          <h1 className='lg:text-[85px] md:text-[75px] sm:text-6xl text-5xl font-bold md:py-6 py-3 text--primary'>JOHN MICHAEL GADOT</h1>
           <div className='flex justify-center items-center text--light'>
             <p className='md:text-5xl sm:text-4xl text-2xl font-bold py-2'>A </p>
             <p className='md:text-5xl sm:text-4xl text-2xl font-bold pl-2'>
@@ -35,7 +35,8 @@ function Hero() {
                   buttonSize='btn--large'
                   buttonColor='btn--primary'
                   buttonHover='btn--hover--dark'
-                  text='HIRE ME'
+                  text1='HIRE ME'
+                  text2='HIRE ME'
                   type='submit'
                   path='./'
                   icon={<HiOutlineCursorClick size={25} />}
@@ -51,7 +52,8 @@ function Hero() {
                   buttonSize='btn--large'
                   buttonColor='btn--dark'
                   buttonHover='btn--hover--primary'
-                  text='SEE MY PAST WORK'
+                  text1='SEE MY PAST WORK'
+                  text2='PROJECTS'
                   type='submit'
                   path='./'
                   icon={<FaHistory size={25} />}
