@@ -22,7 +22,7 @@ function About() {
                             </p>
                         </div>
                         <div className='md:w-1/2 w-full flex flex-col justify-center items-center py-10 sm:px-10 px-0'>
-                            <img className='md:w-[400px] sm:w-[350px] w-[300px]' src={Logo} alt="/" />
+                            <img className='md:w-[300px] sm:w-[275px] w-[250px]' src={Logo} alt="/" />
                         </div>
                         <div className='md:w-1/2 w-full flex flex-col justify-center text--dark--gray'>
                             <h1 className='md:text-5xl sm:text-4xl text-3xl font-black py-4 uppercase'>JOHN MICHAEL GADOT</h1>
