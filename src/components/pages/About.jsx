@@ -24,7 +24,7 @@ function About() {
                         <div className='md:w-1/2 w-full flex flex-col justify-center items-center py-10 sm:px-10 px-0'>
                             <img className='md:w-[300px] sm:w-[275px] w-[250px]' src={Logo} alt="/" />
                         </div>
-                        <div className='md:w-1/2 w-full flex flex-col justify-center text--dark--gray'>
+                        <div className='md:w-1/2 w-full flex flex-col justify-center text--dark--gray md:pb-10 pb-0'>
                             <h1 className='md:text-5xl sm:text-4xl text-3xl font-black py-4 uppercase'>JOHN MICHAEL GADOT</h1>
                             <p className='pb-3'>A <b>Freelance Full-Stack Developer</b> based in the Philippines.</p>
                             <p className='pb-3'>I'm passionate in crafting web applications that are scalable and efficient while providing engaging and pixel-perfect user experiences.</p>
